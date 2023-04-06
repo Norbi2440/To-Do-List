@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>To-Do List</header>
+    <div id="date-navigation">
+        <button id="prev-day-btn">&lt;</button>
+        <span id="current-date"></span>
+        <button id="next-day-btn">&gt;</button>
+    </div>
+    <input type="text" id="task-input" placeholder="">
+    <button id="add-task-btn">Hozzáadás</button>
+    <ul id="todo-list">
+    </ul>
+    <button id="mark-completed-btn" disabled>Elvégzettnek jelöl</button>
+    <button id="delete-completed-btn" disabled>Törlés</button>
+
+    <div id="calendar"></div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
